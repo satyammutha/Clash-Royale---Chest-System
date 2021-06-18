@@ -1,5 +1,4 @@
 ﻿using Chest;
-using System;
 using UnityEngine;
 namespace ChestSObj
 {
@@ -12,11 +11,5 @@ namespace ChestSObj
         public int coins;
         public int gems;
         public ChestView chestView;
-
-    }
-    [CreateAssetMenu(fileName = "ChestScriptableObjectList", menuName = "ScriptableObjects/Chest/New ChestObjectList")]
-    public class ChestScriptableObjectList : ScriptableObject
-    {
-        public ChestScriptableObject[] chestList;
     }
 }

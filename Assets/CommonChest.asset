@@ -16,4 +16,5 @@ MonoBehaviour:
   requiredGems: 10
   coins: 50
   gems: 20
-  chestView: {fileID: 0}
+  chestView: {fileID: 5090565894976157641, guid: 77ce22f1d50f2b642b6f6567e8cee584,
+    type: 3}

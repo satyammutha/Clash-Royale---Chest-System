@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: b8ebc80e857802a47908f01a80280ee9, type: 3}
   m_Name: ChestScriptableObjectList
-  m_EditorClassIdentifier: Assembly-CSharp:ChestSObj:ChestScriptableObjectList
+  m_EditorClassIdentifier: 
   chestList:
   - {fileID: 11400000, guid: d2c9c7522b0851e44b45ff84c8191b94, type: 2}
   - {fileID: 11400000, guid: 0d7eac0190db2634a85461675690a9c0, type: 2}

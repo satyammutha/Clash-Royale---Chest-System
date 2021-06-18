@@ -7,16 +7,20 @@ public class ChestService : MonoBehaviour
 {
     [SerializeField] private Button randomButton;
     [SerializeField] private ChestScriptableObjectList objectList;
+    [SerializeField] private GameObject canvasGameObject;
     private ChestScriptableObject chest;
     private ChestModel chestModel;
-    private void Update()
+    private void Awake()
     {
         randomButton.onClick.AddListener(CreateNewChest);
     }
 
     private void CreateNewChest()
     {
-        NewChest();
+        for(int i=0; i<1; i++)
+        {
+            NewChest();
+        }
     }
 
     public ChestController NewChest()
